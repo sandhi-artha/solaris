@@ -1,4 +1,4 @@
-import gdal
+from osgeo import gdal
 import math
 import matplotlib.pyplot as plt
 import numpy as np

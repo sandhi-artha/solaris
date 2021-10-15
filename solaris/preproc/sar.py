@@ -1,9 +1,9 @@
-import gdal
+from osgeo import gdal
 import json
 import math
 import numpy as np
 import os
-import osr
+from osgeo import osr
 import scipy.signal
 import uuid
 import warnings

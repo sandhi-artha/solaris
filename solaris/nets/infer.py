@@ -1,6 +1,6 @@
 import os
 import torch
-import gdal
+from osgeo import gdal
 import numpy as np
 from warnings import warn
 from .model_io import get_model
